@@ -1,0 +1,23 @@
+{
+  "name": "include",
+  "version": "0.0.0",
+  "description": "To include private modules outside of the node_modules directory",
+  "main": "include.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marek5050/include"
+  },
+  "keywords": [
+    "private",
+    "module"
+  ],
+  "author": "Marek Bejda <marek.bejda@gmail.com> (http://amodernstory.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marek5050/include/issues"
+  },
+  "homepage": "https://github.com/marek5050/include"
+}
