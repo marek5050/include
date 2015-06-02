@@ -4,7 +4,7 @@
   "description": "To include private modules outside of the node_modules directory",
   "main": "include.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/marek5050/include/issues"
   },
-  "homepage": "https://github.com/marek5050/include"
+  "homepage": "https://github.com/marek5050/include",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
 }
