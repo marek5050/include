@@ -5,7 +5,7 @@ NodeJS Module to Include private modules.
 
 
 ## Installation
-    npm install include --save
+    npm install just_include --save
 
 ## Usage
    **** DO NOT CALL WITH ** VAR ** ! // Creates a global function available in any required file  ****
