@@ -1,5 +1,5 @@
-var a = include("B");
+var a = just_include("Hello.js");
 
-module.exports = "hello"+a;
+module.exports = a;
 
 
