@@ -1,6 +1,6 @@
 {
   "name": "just_include",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "To include private modules outside of the node_modules directory",
   "main": "include.js",
   "scripts": {
