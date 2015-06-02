@@ -15,14 +15,12 @@ NodeJS Module to Include private modules.
 __main.js__
 
       just_include = require('just_include')(__dirname);
-      var helloWorld = include('helloWorld');
+      var helloWorld = just_include('helloWorld');
       helloWorld();
 
 
-OR
-   __main.js__
-   // If modules are not in a 'modules' folder, specify a custom folder
-
+__main.js__
+// If modules are not in a 'modules' folder, specify a custom folder
       just_include = require('just_include')(__dirname,'private')
       var helloWorld = just_include('helloWorld');
       helloWorld();
@@ -37,3 +35,4 @@ OR
  * 0.1.1 Styling changes.
  * 0.1.4 Still doing styling changes.
  * 0.1.5 Trying to publish....
+ * 0.1.6 More spelling mistakes....
